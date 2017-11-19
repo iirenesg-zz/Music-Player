@@ -1,0 +1,116 @@
+.sprite {
+	display: inline-block;
+	background-image: url("../img/spritesheet.png");
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+
+.btn-play {
+	background-position: 0 0;
+	width: 76px;
+	height: 76px;
+}
+
+.btn-play:hover {
+	background-position: 0 -81px;
+	width: 76px;
+	height: 76px;
+}
+
+.btn-pause {
+	background-position: -79px 0;
+	width: 76px;
+	height: 76px;
+}
+
+.btn-pause:hover {
+	background-position: -79px -82px;
+	width: 76px;
+	height: 76px;
+}
+
+.btn-next {
+	background-position: -161px -23px;
+	width: 31px;
+	height: 30px;
+	margin: 20px;
+}
+
+.btn-next:hover {
+	background-position: -161px -104px;
+	width: 31px;
+	height: 30px;
+}
+
+.btn-prev {
+	background-position: -199px -23px;
+	width: 31px;
+	height: 30px;
+	margin: 20px;
+}
+
+.btn-prev:hover {
+	background-position: -199px -104px;
+	width: 31px;
+	height: 30px;
+}
+
+.btn-vol {
+	background-position: -236px -23px;
+	width: 39px;
+	height: 29px;
+}
+
+.btn-vol:hover {
+	background-position: -236px -105px;
+	width: 39px;
+	height: 29px;
+}
+
+.btn-mute {
+	background-position: -281px -23px;
+	width: 31px;
+	height: 31px;
+}
+
+.btn-mute:hover {
+	background-position: -281px -104px;
+	width: 31px;
+	height: 31px;
+}
+
+.btn-shuffle {
+	background-position: -321px -24px;
+	width: 33px;
+	height: 26px;
+}
+
+.btn-shuffle:hover, .btn-shuffle-clicked {
+	background-position: -321px -105px;
+	width: 33px;
+	height: 26px;
+}
+
+.btn-repeat {
+	background-position: -360px -25px;
+	width: 26px;
+	height: 25px;
+}
+
+.btn-repeat:hover {
+	background-position: -361px -106px;
+	width: 26px;
+	height: 25px;
+}
+
+.btn-fav {
+	background-position: -392px -24px;
+	width: 29px;
+	height: 26px;
+}
+
+.btn-fav-clicked, .btn-fav:hover {
+	background-position: -392px -105px;
+	width: 29px;
+	height: 26px;
+}
